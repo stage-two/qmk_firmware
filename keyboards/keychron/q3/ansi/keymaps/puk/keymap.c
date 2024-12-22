@@ -138,7 +138,7 @@ bool led_update_user(led_t led_state) {
     return true;
 }
 
-void rgb_matrix_indicators_user() {
+bool rgb_matrix_indicators_user() {
     if (rgb_matrix_get_flags() == LED_FLAG_CAPS) {
         rgb_matrix_set_color_all(0x0, 0x0, 0x0);
     }
@@ -146,4 +146,6 @@ void rgb_matrix_indicators_user() {
     if (host_keyboard_led_state().caps_lock) {
         rgb_matrix_set_color_all(0xFF, 0x0, 0x0);
     }
+
+    return true;
 }
