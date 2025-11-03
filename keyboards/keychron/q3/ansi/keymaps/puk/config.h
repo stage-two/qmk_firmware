@@ -1,5 +1,4 @@
 #pragma once
 
-#define NO_USB_STARTUP_CHECK
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
 #define TAP_HOLD_CAPS_DELAY 20
