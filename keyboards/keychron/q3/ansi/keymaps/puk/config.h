@@ -1,4 +1,4 @@
 #pragma once
 
-#define RGB_DISABLE_WHEN_USB_SUSPENDED
+#define RGB_MATRIX_SLEEP
 #define TAP_HOLD_CAPS_DELAY 20
